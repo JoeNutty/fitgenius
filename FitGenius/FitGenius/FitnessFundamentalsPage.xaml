@@ -1,0 +1,46 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitGenius.FitnessFundamentalsPage"
+             Title="Fitness Fundmentals">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+
+                <!-- Calorie Deficit -->
+                <StackLayout>
+                    <BoxView Color="Black" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+                    <Label Text="Calorie Deficit" FontAttributes="Bold" 
+                       FontSize="Medium" HorizontalOptions="Center" />
+                    
+                    <Image Source="calorie_deficit.png" />
+                    <Button Text="Learn More" Clicked="CalorieDeficitButton_Clicked"
+                        HorizontalOptions="Center" />
+                </StackLayout>
+
+                <!-- Muscle Training -->
+                <StackLayout>
+                    <BoxView Color="Black" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+                    <Label Text="Muscle Training" FontAttributes="Bold" 
+                       FontSize="Medium" HorizontalOptions="Center" />
+                    
+                    <Image Source="muscle_training.png" />
+                    <Button Text="Learn More" Clicked="MuscleTrainingButton_Clicked"
+                        HorizontalOptions="Center" />
+                </StackLayout>
+
+                <!-- Eating Healthy -->
+                <StackLayout>
+                    <BoxView Color="Black" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+                    <Label Text="Eating Healthy" FontAttributes="Bold" 
+                       FontSize="Medium" HorizontalOptions="Center" />
+                    
+                    <Image Source="eating_healthy.png" />
+                    <Button Text="Learn More" Clicked="EatingHealthyButton_Clicked"
+                        HorizontalOptions="Center" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>

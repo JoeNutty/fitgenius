@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitGenius.EatingHealthyPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+                <Label Text="Calorie Deficit" FontSize="Large" FontAttributes="Bold" 
+                   HorizontalOptions="Center" />
+                <Image Source="eating_healthy.png" />
+                <Label Text="What is calorie deficit?" FontSize="Medium" FontAttributes="Bold" 
+                   Margin="0,10,0,5" />
+                <Label Text="Calorie deficit is the difference between the amount of calories you consume and the amount of calories you burn. When you consume fewer calories than you burn, you create a calorie deficit. This forces your body to use stored energy (body fat) to meet its energy needs, resulting in weight loss." 
+                   FontSize="Small" />
+                <Label Text="How do I create a calorie deficit?" FontSize="Medium" FontAttributes="Bold" 
+                   Margin="0,10,0,5" />
+                <Label Text="You can create a calorie deficit by reducing your calorie intake and/or increasing your physical activity. The recommended rate of weight loss is 0.5 to 2 pounds per week, which requires a calorie deficit of 250 to 1000 calories per day. However, it's important to consult with a healthcare professional before making any significant changes to your diet or exercise routine." 
+                   FontSize="Small" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

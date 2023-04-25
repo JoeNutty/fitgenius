@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitGenius.JournalCreationPage"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Margin="20">
+            <Entry x:Name="ExerciseNameEntry" Placeholder="Exercise Name" />
+            <Entry x:Name="WeightEntry" Placeholder="Weight" Keyboard="Numeric" />
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Label Text="Unit of Measurement:" VerticalOptions="CenterAndExpand"/>
+                <Picker x:Name="UnitOfMeasurementPicker"
+        Title="Select Unit"
+        HorizontalOptions="FillAndExpand">
+    <Picker.ItemsSource>
+        <x:Array Type="{x:Type x:String}">
+            <x:String>KG</x:String>
+            <x:String>lbs</x:String>
+        </x:Array>
+    </Picker.ItemsSource>
+</Picker>
+
+            </StackLayout>
+            <DatePicker x:Name="EntryDatePicker"
+        Date="{x:Static sys:DateTime.Today}"
+        MinimumDate="{x:Static sys:DateTime.Today}"
+        MaximumDate="{x:Static sys:DateTime.Today}" />
+            <Button Text="Add"
+                BackgroundColor="ForestGreen"
+                TextColor="White"
+                HorizontalOptions="Center"
+                WidthRequest="800"
+                HeightRequest="50"
+                FontSize="20"
+                Clicked="OnAddButtonClicked"
+               />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

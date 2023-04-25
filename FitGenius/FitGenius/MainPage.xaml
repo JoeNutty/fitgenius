@@ -1,0 +1,64 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitGenius.MainPage"
+             Title="FitGenius">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- main content goes here -->
+        <StackLayout>
+            <!-- your main content -->
+        </StackLayout>
+
+        <!-- buttons grid -->
+        <Grid Grid.Row="1" BackgroundColor="#2196F3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button ImageSource="guru"
+                    TextColor="White"
+                    BackgroundColor="#2196F3"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand"
+                    Grid.Column="0"
+                    Clicked="OnFitnessGuruClicked"/>
+
+            <Button ImageSource="plan"
+                    TextColor="White"
+                    BackgroundColor="#2196F3"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand"
+                    Grid.Column="1"
+                    Clicked="OnWorkoutPlanClicked"/>
+
+            <Button ImageSource="info" 
+                    TextColor="White"
+                    BackgroundColor="#2196F3"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand"
+                    Grid.Column="2"
+                    Clicked="OnFitnessFundamentalsClicked"/>
+
+            <Button Text="" 
+                    ImageSource="journal"
+                    TextColor="White"
+                    BackgroundColor="#2196F3"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand"
+                    Grid.Column="3"
+                    Clicked="OnFitnessJournalClicked"/>
+        </Grid>
+    </Grid>
+
+</ContentPage>
