@@ -1,0 +1,105 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitGenius.WorkoutPlanCreation"
+             Title="Workout Plan Creation Page">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Workout Plan Name" FontAttributes="Bold" />
+                <Entry x:Name="WorkoutPlanNameEntry" Placeholder="Enter a name for your workout plan" />
+
+
+                <Label Text="Select Workouts" FontAttributes="Bold" />
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Chest" FontAttributes="Bold" />
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="DumbbellBenchPress" />
+                        <Label Text="Dumbbell Bench Press" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="InclineDumbbellBenchPress"/>
+                        <Label Text="Incline Dumbbell Bench Press" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="DumbbellChestFlys"/>
+                        <Label Text="Dumbbell Chest Flys" />
+                    </StackLayout>
+                    <Label Text="Back" FontAttributes="Bold" />
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="PullUps"/>
+                        <Label Text="Pull Ups" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="LatPulldowns"/>
+                        <Label Text="Lat Pulldowns" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="DumbbellRows"/>
+                        <Label Text="Dumbbell Rows" />
+                    </StackLayout>
+                    <Label Text="Arms" FontAttributes="Bold" />
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="DumbbellCurls"/>
+                        <Label Text="Dumbbell Curls" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="RopePulldown"/>
+                        <Label Text="Rope Pulldown" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="HammerCurls"/>
+                        <Label Text="Hammer Curls" />
+                    </StackLayout>
+                    <Label Text="Shoulders" FontAttributes="Bold" />
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="ShoulderPress"/>
+                        <Label Text="Shoulder Press" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="LateralRaises"/>
+                        <Label Text="Lateral Raises" />
+                    </StackLayout>
+                    <Label Text="Quadriceps" FontAttributes="Bold" />
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="BarbellSquats"/>
+                        <Label Text="Barbell Squats" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="LegPress"/>
+                        <Label Text="Leg Press" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="WalkingLunges"/>
+                        <Label Text="Walking Lunges" />
+                    </StackLayout>
+                    <Label Text="Hamstrings" FontAttributes="Bold" />
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="RomanianDeadlifts"/>
+                        <Label Text="Romanian Deadlifts" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="LegCurls"/>
+                        <Label Text="Leg Curls" />
+                    </StackLayout>
+                    <Label Text="Glutes" FontAttributes="Bold" />
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="HipThrusts"/>
+                        <Label Text="Hip Thrusts" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="BulgarianSplitSquats"/>
+                        <Label Text="Bulgarian Split Squats" />
+                    </StackLayout>
+                    <Label Text="Calves" FontAttributes="Bold" />
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="CalfRaises"/>
+                        <Label Text="Calf Raises" />
+                    </StackLayout>
+                </StackLayout>
+
+                <Button Text="Create Plan" Clicked="Button_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>
