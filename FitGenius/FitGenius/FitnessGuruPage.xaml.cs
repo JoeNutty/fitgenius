@@ -16,5 +16,15 @@ namespace FitGenius
 		{
 			InitializeComponent ();
 		}
-	}
+
+        async private void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new upper.uppermain());
+        }
+
+        async private void Button_Clicked_1(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new lower.lowermain());
+        }
+    }
 }

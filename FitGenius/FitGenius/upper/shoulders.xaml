@@ -1,0 +1,17 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitGenius.upper.shoulders">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+                <Label Text="Shoulder Press" FontSize="Title" FontAttributes="Bold" />
+                <Image Source="shoulder_press" Aspect="AspectFit" HeightRequest="250" />
+                <Label Text="Shoulder workout. Hold a dumbbell in each hand and raise them to shoulder height with your palms facing forward. Push the dumbbells straight up until your arms are fully extended above your head. Lower the dumbbells slowly and repeat for desired reps." />
+
+                <Label Text="Lateral Raises" FontSize="Title" FontAttributes="Bold" />
+                <Image Source="lateral_raises" Aspect="AspectFill" HeightRequest="250" />
+                <Label Text="Shoulder workout. Hold a dumbbell in each hand with your palms facing towards your body. Raise the dumbbells out to the sides until your arms are parallel to the floor. Lower the dumbbells slowly and repeat for desired reps." />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -21,3 +21,13 @@ C:\Users\User\Documents\Visual Studio 2022\repos\FitGenius\FitGenius\FitGenius\o
 C:\Users\User\Documents\Visual Studio 2022\repos\FitGenius\FitGenius\FitGenius\obj\Debug\netstandard2.0\EatingHealthyPage.xaml.g.cs
 C:\Users\User\Documents\Visual Studio 2022\repos\FitGenius\FitGenius\FitGenius\obj\Debug\netstandard2.0\MuscleTrainingPage.xaml.g.cs
 C:\Users\User\Documents\Visual Studio 2022\repos\FitGenius\FitGenius\FitGenius\obj\Debug\netstandard2.0\JournalCreationPage.xaml.g.cs
+C:\Users\User\Documents\Visual Studio 2022\repos\FitGenius\FitGenius\FitGenius\obj\Debug\netstandard2.0\lower\lowermain.xaml.g.cs
+C:\Users\User\Documents\Visual Studio 2022\repos\FitGenius\FitGenius\FitGenius\obj\Debug\netstandard2.0\upper\uppermain.xaml.g.cs
+C:\Users\User\Documents\Visual Studio 2022\repos\FitGenius\FitGenius\FitGenius\obj\Debug\netstandard2.0\upper\arms.xaml.g.cs
+C:\Users\User\Documents\Visual Studio 2022\repos\FitGenius\FitGenius\FitGenius\obj\Debug\netstandard2.0\upper\back.xaml.g.cs
+C:\Users\User\Documents\Visual Studio 2022\repos\FitGenius\FitGenius\FitGenius\obj\Debug\netstandard2.0\upper\chest.xaml.g.cs
+C:\Users\User\Documents\Visual Studio 2022\repos\FitGenius\FitGenius\FitGenius\obj\Debug\netstandard2.0\upper\shoulders.xaml.g.cs
+C:\Users\User\Documents\Visual Studio 2022\repos\FitGenius\FitGenius\FitGenius\obj\Debug\netstandard2.0\lower\calves.xaml.g.cs
+C:\Users\User\Documents\Visual Studio 2022\repos\FitGenius\FitGenius\FitGenius\obj\Debug\netstandard2.0\lower\glutes.xaml.g.cs
+C:\Users\User\Documents\Visual Studio 2022\repos\FitGenius\FitGenius\FitGenius\obj\Debug\netstandard2.0\lower\hams.xaml.g.cs
+C:\Users\User\Documents\Visual Studio 2022\repos\FitGenius\FitGenius\FitGenius\obj\Debug\netstandard2.0\lower\quad.xaml.g.cs

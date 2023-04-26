@@ -1,0 +1,18 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitGenius.lower.hams">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+                <Label Text="Romanian Deadlifts" FontSize="Title" FontAttributes="Bold" />
+                <Image Source="romanian_deadlift" Aspect="AspectFill" HeightRequest="250" />
+                <Label Text="Hamstring workout. Stand with your feet shoulder-width apart and hold a barbell with an overhand grip, hands slightly wider than shoulder-width apart. Keep your back straight and bend at the hips to lower the weight towards the ground. Keep your legs straight but do not lock out your knees. Lift the weight back up by extending your hips and repeat for desired reps." />
+
+                <Label Text="Leg Curls" FontSize="Title" FontAttributes="Bold" />
+                <Image Source="leg_curls" Aspect="AspectFit" HeightRequest="250" />
+                <Label Text="Hamstring workout. Lie face down on a leg curl machine and place your heels under the padded lever. Curl your legs up towards your glutes, keeping your hips pressed into the bench. Slowly lower the weight back down and repeat for desired reps." />
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

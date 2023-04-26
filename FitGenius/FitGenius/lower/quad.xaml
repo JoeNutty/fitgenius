@@ -1,0 +1,21 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitGenius.lower.quad">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+                <Label Text="Barbell Squats" FontSize="Title" FontAttributes="Bold" />
+                <Image Source="barbell_squat" Aspect="AspectFill" HeightRequest="250" />
+                <Label Text="Quadriceps workout. With a barbell resting on your upper back, stand with your feet shoulder-width apart. Bend your knees and lower yourself into a squat, keeping your back straight and chest up. Push through your heels to return to the starting position and repeat for desired reps." />
+
+                <Label Text="Leg Press" FontSize="Title" FontAttributes="Bold" />
+                <Image Source="leg_press" Aspect="AspectFit" HeightRequest="250" />
+                <Label Text="Quadriceps workout. Sit on a leg press machine with your feet on the platform, shoulder-width apart. Extend your legs until they are almost fully straightened but not locked out, then lower them back down to the starting position and repeat for desired reps." />
+
+                <Label Text="Walking Lunges" FontSize="Title" FontAttributes="Bold" />
+                <Image Source="walking_lunges" Aspect="AspectFill" HeightRequest="250" />
+                <Label Text="Quadriceps workout. Stand with your feet shoulder-width apart and take a large step forward with one foot. Bend your front knee to a 90-degree angle, keeping your back knee just above the ground. Push through your front heel to return to the starting position and repeat with the other leg." />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

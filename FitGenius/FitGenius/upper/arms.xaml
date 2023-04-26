@@ -1,0 +1,21 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitGenius.upper.arms">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+                <Label Text="Dumbbell Curls" FontSize="Title" FontAttributes="Bold" />
+                <Image Source="arms" Aspect="AspectFill" HeightRequest="250" />
+                <Label Text="Biceps workout. Hold a dumbbell in each hand, arms straight and palms facing forward. Keep your elbows close to your sides and curl the weights up towards your shoulders, keeping your palms facing upwards. Lower the weights slowly and repeat for desired reps." />
+
+                <Label Text="Rope Pull Down" FontSize="Title" FontAttributes="Bold" />
+                <Image Source="rope_pulldown" Aspect="AspectFill" HeightRequest="250" />
+                <Label Text="Triceps workout. Attach a rope to a high pulley and grab it with both hands. Keep your elbows close to your sides and pull the rope downwards until your arms are fully extended. Slowly return to starting position and repeat for desired reps." />
+
+                <Label Text="Hammer Curls" FontSize="Title" FontAttributes="Bold" />
+                <Image Source="Hammer_Curl" Aspect="AspectFill" HeightRequest="250" />
+                <Label Text="Forearm workout. Hold a dumbbell in each hand, arms straight and palms facing towards each other. Keep your elbows close to your sides and curl the weights up towards your shoulders, keeping your palms facing each other. Lower the weights slowly and repeat for desired reps." />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

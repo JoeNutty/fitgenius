@@ -1,0 +1,19 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitGenius.lower.glutes"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+                <Label Text="Hip Thrusts" FontSize="Title" FontAttributes="Bold" />
+                <Image Source="hip_thrusts" Aspect="AspectFit" HeightRequest="250" />
+                <Label Text="Glute workout. Sit on the ground with your back against a bench, knees bent and feet flat on the floor. Place a barbell across your hips and hold it with both hands. Lift your hips up until your body forms a straight line from your shoulders to your knees. Lower your hips back down and repeat for desired reps." />
+
+                <Label Text="Bulgarian Split Squats" FontSize="Title" FontAttributes="Bold" />
+                <Image Source="bulgarian_split_squats" Aspect="AspectFill" HeightRequest="250" />
+                <Label Text="Quadriceps and glute workout. Stand a few feet in front of a bench with your back facing it. Place one foot on the bench behind you and hold a dumbbell in each hand. Bend your front knee and lower your body until your back knee is almost touching the ground. Push back up to starting position and repeat for desired reps." />
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

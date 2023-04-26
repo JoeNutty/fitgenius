@@ -1,0 +1,21 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitGenius.upper.back">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+                <Label Text="Pull Ups" FontSize="Title" FontAttributes="Bold" />
+                <Image Source="pull_ups" Aspect="AspectFill" HeightRequest="250" />
+                <Label Text="Back and biceps workout. Grab the pull-up bar with an overhand grip, hands shoulder-width apart. Hang from the bar with straight arms, then pull yourself up until your chin is above the bar. Lower yourself back down slowly and repeat for desired reps." />
+
+                <Label Text="Lat Pulldowns" FontSize="Title" FontAttributes="Bold" />
+                <Image Source="lat_pulldowns" Aspect="AspectFill" HeightRequest="250" />
+                <Label Text="Back and triceps workout. Sit at a lat pulldown machine and grasp the bar with a wide overhand grip. Pull the bar down towards your chest, keeping your elbows close to your sides, and then slowly release back up to the starting position. Repeat for desired reps." />
+
+                <Label Text="Dumbbell Rows" FontSize="Title" FontAttributes="Bold" />
+                <Image Source="dumbbell_rows" Aspect="AspectFill" HeightRequest="250" />
+                <Label Text="Back and forearm workout. Hold a dumbbell in each hand, arms straight and palms facing towards each other. Keep your elbows close to your sides and pull the weights up towards your chest, keeping your palms facing towards your body. Lower the weights slowly and repeat for desired reps." />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

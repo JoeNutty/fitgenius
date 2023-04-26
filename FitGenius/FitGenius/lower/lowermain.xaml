@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitGenius.lower.lowermain"
+             Title="Upper Body"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <Grid RowSpacing="0" ColumnSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackLayout Grid.Row="0" Grid.Column="0">
+                <Image Source="quads.png" Aspect="AspectFill" />
+                <Button Text="Quadriceps" BackgroundColor="LightGray" Clicked="Button_Clicked"/>
+            </StackLayout>
+            <StackLayout Grid.Row="0" Grid.Column="1">
+                <Image Source="hams.png" Aspect="AspectFill" />
+                <Button Text="Hamstrings" BackgroundColor="LightGray" Clicked="Button_Clicked_1" />
+            </StackLayout>
+            <StackLayout Grid.Row="1" Grid.Column="0">
+                <Image Source="glutes.png" Aspect="AspectFill" />
+                <Button Text="Glutes" BackgroundColor="LightGray" Clicked="Button_Clicked_2" />
+            </StackLayout>
+            <StackLayout Grid.Row="1" Grid.Column="1">
+                <Image Source="calves.png" Aspect="AspectFill" />
+                <Button Text="Calves" BackgroundColor="LightGray" Clicked="Button_Clicked_3"/>
+            </StackLayout>
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

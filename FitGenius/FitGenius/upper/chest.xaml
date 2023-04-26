@@ -1,0 +1,21 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitGenius.upper.chest">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+                <Label Text="Dumbbell Bench Press" FontSize="Title" FontAttributes="Bold" />
+                <Image Source="dumbbell_bench_press.png" Aspect="AspectFill" HeightRequest="250" />
+                <Label Text="Chest workout. Lie down on a bench with a dumbbell in each hand, palms facing forward. Keep your elbows close to your sides and lower the weights towards your chest, keeping your palms facing forward. Press the weights up until your arms are fully extended and repeat for desired reps." />
+
+                <Label Text="Incline Dumbbell Bench Press" FontSize="Title" FontAttributes="Bold" />
+                <Image Source="incline_dumbbell_bench_press.png" Aspect="AspectFill" HeightRequest="250" />
+                <Label Text="Chest workout. Lie down on an incline bench with a dumbbell in each hand, palms facing forward. Keep your elbows close to your sides and lower the weights towards your chest, keeping your palms facing forward. Press the weights up until your arms are fully extended and repeat for desired reps." />
+
+                <Label Text="Dumbbell Chest Flys" FontSize="Title" FontAttributes="Bold" />
+                <Image Source="dumbbell_chest_flys.png" Aspect="AspectFill" HeightRequest="250" />
+                <Label Text="Chest workout. Lie down on a bench with a dumbbell in each hand, palms facing each other. Lower the weights to the sides of your chest, keeping your arms straight. Bring the weights back up, touching them at the top, and repeat for desired reps." />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
